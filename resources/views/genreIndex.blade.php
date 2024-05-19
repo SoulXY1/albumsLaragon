@@ -53,7 +53,7 @@
                 <tr>
                     <td>{{$genre->id}}</td>
                     <td>{{$genre->genreName}}</td>
-                    <td>{{$genre->decade}}</td>
+                    <td>{{$genre->decade}}'s</td>
 
                     <td><a href="/genre/{{$genre->id}}" class="btn btn-outline-light">Ver mas</a></td>
                 </tr>

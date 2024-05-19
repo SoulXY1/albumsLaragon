@@ -38,7 +38,7 @@
 
     <div class="container mt-3">
         <h1 class="center-align">Lista de Albumes</h1>
-        <a href="/album/create" class="btn btn-light mt-3">Añadir producto</a>
+        <a href="/album/create" class="btn btn-light mt-3">Añadir Album</a>
         <table class="table table-striped mt-3">
             <thead>
                 <tr>

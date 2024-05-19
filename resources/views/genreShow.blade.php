@@ -38,18 +38,18 @@
 
     <div class="container mt-3">
         <h1 class="header">{{$genre->genreName}}</h1>
-        <h4 class="blue-text text-darken-2">Decada: {{$genre->decade}}</h4>
+        <h4 class="blue-text text-darken-2">Decada: {{$genre->decade}}'s</h4>
 
 
         <div>
             <div class="col s6">
-                <a href="/genre/{{$genre->id}}/edit" class="btn btn-light btn-block">Modificar</a>
+                <a href="/genre/{{$genre->id}}/edit" class="btn btn-light btn-block mt-3" style="width:100px;">Modificar</a>
             </div>
             <div>
                 <form method="POST" action="/genre/{{$genre->id}}" id="formulario">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-light btn-block">Eliminar</button>
+                    <button type="submit" class="btn btn-light btn-block mt-3"  style="width:100px;">Eliminar</button>
                 </form>
             </div>
         </div>

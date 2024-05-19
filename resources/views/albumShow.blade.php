@@ -47,13 +47,13 @@
 
         <div>
             <div>
-                <a href="/album/{{$album->id}}/edit" class="btn btn-light btn-block">Modificar</a>
+                <a href="/album/{{$album->id}}/edit" class="btn btn-light btn-block mt-3" style="width:100px;">Modificar</a>
             </div>
-            <div class="">
+            <div>
                 <form method="POST" action="/album/{{$album->id}}" id="formulario">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-light btn-block">Eliminar</button>
+                    <button type="submit" class="btn btn-light btn-block mt-3" style="width:100px;">Eliminar</button>
                 </form>
             </div>
         </div>
